@@ -67,3 +67,16 @@ class Join < Stitch
     @stitch.count - 1
   end
 end
+
+class UnknownStitch < Stitch
+  def initialize(instruction)
+    @instruction = instruction
+  end
+  def make
+    @instruction
+  end
+
+  def count
+    1
+  end
+end

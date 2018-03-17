@@ -1,4 +1,7 @@
 # * Dc Inc * Repeat 6 times, sl st to join (12)
+#
+
+
 require './stitch'
 
 stitch_count = 0
